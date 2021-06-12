@@ -120,6 +120,7 @@ function transform(pointStructure) {
 let newPointStructure = transform(oldPointStructure);
 
 function runProgram() {
+  console.clear();
   initialPrompt();
 }
 
