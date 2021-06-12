@@ -112,7 +112,7 @@ function transform(pointStructure) {
       rebuiltStructure[n.toLowerCase()] = Number(key);
     })
   }
-  rebuiltStructure[' '] = 0;
+  // rebuiltStructure[' '] = 0;
   return rebuiltStructure
 };
 
