@@ -113,14 +113,13 @@ function transform(pointStructure) {
       rebuiltStructure[n] = Number(key);
     })
   }
-  rebuiltStructure[' '] = 0;
+  // rebuiltStructure[' '] = 0;
   return rebuiltStructure
 };
 
 let newPointStructure = transform(oldPointStructure);
 
 function runProgram() {
-  console.clear();
   initialPrompt();
 }
 
